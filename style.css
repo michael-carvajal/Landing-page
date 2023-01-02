@@ -1,3 +1,7 @@
+body{
+    background: radial-gradient(rgb(132, 186, 237),rgb(36, 110, 179));
+}
+
 .top{
     margin: 10px 75px 10px 100px;
     display: flex;
@@ -24,6 +28,7 @@ nav ul {
 li a{
     text-transform: lowercase;
     text-decoration: none;
+    font-size: 2em;
 }
 
 .main{
@@ -53,7 +58,8 @@ p{
 
 #main_img{
     height: 200px;
-    width: 100%;
+    width: 300px;
+    float: right;
 }
 
 
@@ -97,4 +103,20 @@ p{
     margin-left: 100px;
     height: 50px;
     border: black 2px solid;
+}
+
+
+
+
+.music{
+width: 600px;
+margin: auto;
+border: 2px solid blue;
+
+}
+
+
+#moonunitt_img{
+    width: 400px;
+    margin: 10px 0px 0px 100px;
 }
