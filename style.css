@@ -185,3 +185,27 @@ input {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
 }
+.program-head{
+    margin-left: 30%;
+    margin-right: 32%;
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}
+.grid-item {
+    text-align: center;
+}
+.grid-item img {
+    height: 100px;
+}
+.grid-item p{
+    font-size: 15px;
+}
+img {
+    width: 100%;
+}
