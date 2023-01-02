@@ -1,13 +1,14 @@
-body{
-    background: radial-gradient(rgb(132, 186, 237),rgb(36, 110, 179));
+body {
+    background: radial-gradient(rgb(132, 186, 237), rgb(36, 110, 179));
 }
 
-.top{
+.top {
     margin: 10px 75px 10px 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 nav {
     /* Add a border to the top and bottom of the navbar */
     border-top: 3px solid black;
@@ -25,24 +26,24 @@ nav ul {
 }
 
 
-li a{
+li a {
     text-transform: lowercase;
     text-decoration: none;
     font-size: 2em;
 }
 
-.main{
+.main {
     width: 500px;
     margin: auto;
 }
 
-h1{
+h1 {
     border: black 3px solid;
     padding: 5px 9px 15px 5px;
     margin-bottom: 0px;
 }
 
-.credits{
+.credits {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -50,55 +51,56 @@ h1{
     margin: 20px 30px 20px 20px;
 }
 
-p{
+p {
     margin: 0;
 }
 
 
 
-#main_img{
+#main_img {
     height: 200px;
     width: 300px;
     float: right;
 }
 
 
-.info{
+.info {
     display: flex;
     flex-direction: row;
     border: black 2px solid;
 }
 
-.info li{
+.info li {
     list-style: '-';
 }
- .info ul{
+
+.info ul {
     padding-left: 10px;
     padding-right: 30px;
- }
+}
 
- footer{
+footer {
     display: flex;
     justify-content: space-around;
- }
+}
 
- .footer_right{
+.footer_right {
     margin-top: 30px;
     margin-right: 150px;
     padding-left: 0;
     list-style: none;
     display: flex;
     flex-direction: row;
- }
+}
 
- .footer_right li {
+.footer_right li {
     margin-left: 10px;
     text-transform: none;
 
- }
+}
 
 
-#logo{
+#logo {
     margin-top: 10px;
     margin-left: 100px;
     height: 50px;
@@ -108,15 +110,48 @@ p{
 
 
 
-.music{
-width: 600px;
-margin: auto;
-border: 2px solid blue;
-
+.music {
+    width: 600px;
+    margin: auto;
+    border: 2px solid blue;
 }
 
 
-#moonunitt_img{
+#moonunitt_img {
     width: 400px;
-    margin: 10px 0px 0px 100px;
+    margin: 10px 0px 100px 100px;
+}
+
+.music-function {
+display: flex;
+flex-wrap: wrap;
+margin-left: 10px;
+}
+.function-list{
+    display: flex;
+    flex-direction: row;
+margin-bottom: 74px;
+}
+.function-list ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 75px;
+    font-size: 20px;
+}
+.function-list li{
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.function-list img{
+    width: 300px;
+}
+
+.music-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.music-img img {
+    width: 300px;
+    margin-left: 15px;
 }
