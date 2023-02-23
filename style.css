@@ -87,9 +87,14 @@ p {
 #main_img {
     height: 200px;
     width: 300px;
-    float: right;
+
 }
 
+.header2 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
 
 .info {
     display: flex;
