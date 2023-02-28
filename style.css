@@ -48,7 +48,14 @@ nav ul {
 
 }
 
-#home {
+#home img {
+    width: 100px;
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+
+#home span {
+    margin-bottom: 30px;
     color: red;
 }
 
