@@ -1,0 +1,33 @@
+.container-color-changer {
+    width: 600px;
+    /* margin-left: 25%;
+    margin-right: 30%; */
+    border: blanchedalmond 3px solid;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+.saved_display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    align-content: flex-start;
+    padding: 10px;
+}
+
+.btn {
+    font-size: 30px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
